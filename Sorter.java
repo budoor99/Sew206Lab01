@@ -1,7 +1,6 @@
 public class Sorter {
 
-    void insertionSort(int arr[])
-    {
+    void insertionSort(int arr[]) {
         int n = arr.length;
         for (int i = 1; i < n; ++i) {
             int key = arr[i];
@@ -15,6 +14,9 @@ public class Sorter {
                 j = j - 1;
             }
             arr[j + 1] = key;
+
+        }
+    }
 
     void selectionSort(int arr[])
     {
